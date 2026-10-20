@@ -1,0 +1,20 @@
+# Core training and evaluation
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
+einops>=0.7
+
+# Install the PyTorch build matching your CUDA runtime when GPU training is used.
+torch>=2.0
+torchvision>=0.15
+
+# ONNX export and validation
+onnx>=1.14
+onnxruntime>=1.16
+onnxsim>=0.4.36
+
+# Optional dependencies intentionally omitted:
+# - tensorflow: required only for Keras EEGModels baselines
+# - rknn-toolkit2: required only for Rockchip RKNN conversion/deployment
